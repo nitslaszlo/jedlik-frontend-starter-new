@@ -3,7 +3,7 @@
 <script setup lang="ts">
 import router from "../router";
 import { ref } from "vue";
-import { onMounted } from "vue";
+// import { onMounted } from "vue";
 // import { useStore } from "../stores/store";
 // const store = useStore();
 
@@ -12,9 +12,9 @@ let showLeftDrawer = ref(true);
 let showRightDrawer = ref(true);
 let showStatusBar = ref(true);
 
-onMounted(() => {
-  router.push("/xhelp");
-});
+// onMounted(() => {
+//   router.push("/xhelp");
+// });
 </script>
 
 <template>
